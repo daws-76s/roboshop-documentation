@@ -17,7 +17,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 Install RabbitMQ
 
 ```
-yum install rabbitmq-server -y 
+dnf install rabbitmq-server -y 
 ```
 
 Start RabbitMQ Service

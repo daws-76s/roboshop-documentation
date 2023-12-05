@@ -7,7 +7,7 @@ Shipping service is written in Java, Hence we need to install Java.
 Maven is a Java Packaging software, Hence we are going to install maven, This indeed takes care of java installation.
 
 ```
-yum install maven -y
+dnf install maven -y
 ```
 
 Configure the application.
@@ -95,7 +95,7 @@ We need to load the schema. To load schema we need to install mysql client.
 To have it installed we can use
 
 ```
-yum install mysql -y 
+dnf install mysql -y
 ```
 
 Load Schema

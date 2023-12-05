@@ -4,7 +4,7 @@ Developer has chosen the database MySQL. Hence, we are trying to install it up a
 CentOS-8 Comes with MySQL 8 Version by default, However our application needs MySQL 5.7. So lets disable MySQL 8 version.
 
 ```
-yum module disable mysql -y 
+dnf module disable mysql -y
 ```
 
 Setup the MySQL5.7 repo file
@@ -24,7 +24,7 @@ gpgcheck=0
 Install MySQL Server
 
 ```
-yum install mysql-community-server -y
+dnf install mysql-community-server -y
 ```
 
 Start MySQL Service

@@ -5,7 +5,7 @@ This service is responsible for payments in RoboShop e-commerce app. This servic
 Install Python 3.6
 
 ```
-yum install python36 gcc python3-devel -y
+dnf install python36 gcc python3-devel -y
 ```
 
 Configure the application.

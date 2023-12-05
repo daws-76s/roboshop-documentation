@@ -1,15 +1,21 @@
 ### User
 User is a microservice that is responsible for User Logins and Registrations Service in RobotShop e-commerce portal.
 
-Setup NodeJS repos. Vendor is providing a script to setup the repos.
+Developer has chosen NodeJs, Check with developer which version of NodeJS is needed. Developer has set a context that it can work with NodeJS >18
+
+Install NodeJS, By default NodeJS 10 is available, We would like to enable 18 version and install list.
+
+*you can list modules by using dnf module list*
 
 ```
-curl -sL https://rpm.nodesource.com/setup_lts.x | bash
+dnf module disable nodejs -y
+dnf module enable nodejs:18 -y
 ```
+
 Install NodeJS
 
 ```
-yum install nodejs -y
+dnf install nodejs -y
 ```
 
 Configure the application.
@@ -106,7 +112,7 @@ gpgcheck=0
 enabled=1
 ```
 ```
-yum install mongodb-org-shell -y
+dnf install mongodb-org-shell -y
 ```
 
 Load Schema

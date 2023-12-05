@@ -4,7 +4,7 @@ Dispatch is the service which dispatches the product after purchase. It is writt
 Install GoLang
 
 ```
-yum install golang -y
+dnf install golang -y
 ```
 
 Configure the application.
