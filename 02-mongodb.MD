@@ -17,7 +17,7 @@ enabled=1
 
 Install MongoDB
 ```
-yum install mongodb-org -y
+dnf install mongodb-org -y 
 ```
 
 Start & Enable MongoDB Service

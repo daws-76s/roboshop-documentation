@@ -6,7 +6,7 @@
 
 Install Nginx 
 ```
-yum install nginx -y
+dnf install nginx -y
 ```
 
 Start & Enable Nginx service 
